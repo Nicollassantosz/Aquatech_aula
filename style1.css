@@ -66,7 +66,7 @@ body {
 /* SOCIAL*/
 
 .social{
-    background-color: #f7f7f7;
+    background-color: black;
     height: 500px;
 }
 .social .container{
@@ -76,14 +76,7 @@ body {
     justify-content: space-between;
 }
 
-.social .container .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 3px solid green;
-    width: 300px;
-}
+
 
 
 .social .container .box img{
@@ -94,4 +87,47 @@ body {
     width: 100%;
 }
 
+.box{
+    background-color:#D6DEE7 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ color: #FF506E; 
+    width: 380px;
+    height: 400px;
+}
+.social .container .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px ;
+    width: 300px;
+}
 
+button{
+    background-color: #F62F63 ;
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+
+
+
+input{
+    padding: 8px 15px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #32b9cd;
+}
+
+.box span{
+    text-align: left;
+    width: 51%;
+    font-weight: 600;
+    font-size: 92%;
+}
